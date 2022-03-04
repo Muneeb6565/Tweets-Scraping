@@ -1,2 +1,2 @@
 # Tweets Scraping
- This code scrapes tweets from a specific user and check if that tweet has been red or not.
+ This code somewhat makes a live system for scraping tweets from a specific user and checks if that tweet has been red or not.
