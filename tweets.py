@@ -2,8 +2,9 @@ import twint
 import json
 import requests
 import pandas
+import time
 
-while 1:
+while True:
 	c = twint.Config()
 	c.Username = "brecordernews"
 	c.Search = "economy OR inflation OR demand OR dollar OR business"
@@ -36,5 +37,7 @@ while 1:
 	})
 
 			print("new")
+
+	time.sleep(15)		
 
 
