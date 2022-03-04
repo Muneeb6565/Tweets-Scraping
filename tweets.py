@@ -3,7 +3,7 @@ import json
 import requests
 import pandas
 
-while True:
+while 1:
 	c = twint.Config()
 	c.Username = "brecordernews"
 	c.Search = "economy OR inflation OR demand OR dollar OR business"
